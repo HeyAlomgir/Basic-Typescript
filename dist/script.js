@@ -9,3 +9,7 @@ const Multiplaition = (a, b) => {
     return a * b;
 };
 console.log(Multiplaition(34, 3));
+// Aray and Tupple an readonly 
+const arr = ["Alomgir", "siam", "rony"];
+arr.push("jahid");
+console.log(arr);
