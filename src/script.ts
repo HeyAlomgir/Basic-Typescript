@@ -47,3 +47,27 @@ console.log(stnRoll)
 
 const student: readonly [number, string] = [34, "ALomgir"];
 
+
+
+const greetings = (gretting: string, fulName: string): void => {
+    console.log(gretting + " " + fulName);
+}
+greetings("hello", "Alomgir");
+
+
+// rest paremeteers
+
+const sumI = (...numbers: number[]) => {
+    return console.log(numbers.reduce((arr, num) => arr + num, 0))
+}
+sumI(3, 4);
+
+
+
+const stud = (...arg: [string, number, boolean]) => {
+    const [name, age, isActive] = arg;
+    console.log(name, "is", age);
+
+}
+stud("alomgir", 20, true);
+

@@ -29,3 +29,17 @@ stnRoll.push(34);
 console.log(stnRoll);
 // tuple er sate readonly diye dibo jate keu change nha korte pare
 const student = [34, "ALomgir"];
+const greetings = (gretting, fulName) => {
+    console.log(gretting + " " + fulName);
+};
+greetings("hello", "Alomgir");
+// rest paremeteers
+const sumI = (...numbers) => {
+    return console.log(numbers.reduce((arr, num) => arr + num, 0));
+};
+sumI(3, 4);
+const stud = (...arg) => {
+    const [name, age, isActive] = arg;
+    console.log(name, "is", age);
+};
+stud("alomgir", 20, true);
