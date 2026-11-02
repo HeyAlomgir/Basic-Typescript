@@ -50,3 +50,17 @@ const students = {
     isActive: true,
     address: ["Bangladesh", "Mymensingh"]
 };
+const user1 = {
+    name: "Ibrahim",
+    age: 34,
+    address: ["Banglades", "Mymensingh"],
+    cgpa: [4.00, 3.00]
+};
+console.log(user1);
+const user2 = {
+    name: "raju",
+    age: 34,
+    address: ["Bangladesh", "Mymensingh"],
+    cgpa: [34, 3454]
+};
+console.log(user2);

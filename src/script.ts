@@ -90,3 +90,32 @@ const students: {
 
 
 
+// Alias
+
+type users = {
+    name: string,
+    age: number,
+    address: string[],
+    cgpa: number[];
+}
+
+
+const user1: users = {
+    name: "Ibrahim",
+    age: 34,
+    address: ["Banglades", "Mymensingh"],
+    cgpa: [4.00, 3.00]
+}
+console.log(user1)
+
+
+const user2: users = {
+    name: "raju",
+    age: 34,
+    address: ["Bangladesh", "Mymensingh"],
+    cgpa: [34, 3454]
+}
+console.log(user2)
+
+
+
