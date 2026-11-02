@@ -34,3 +34,16 @@ for (const num of arr2) {
     sum = num + sum;
 }
 console.log("Aray Sum:", sum)
+
+
+// Tupple an readonly
+
+// simple tupple 
+const stnRoll: [number, number] = [34, 43];
+stnRoll.push(34);
+console.log(stnRoll)
+
+// tuple er sate readonly diye dibo jate keu change nha korte pare
+
+const student: readonly [number, string] = [34, "ALomgir"];
+
