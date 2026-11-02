@@ -71,3 +71,22 @@ const stud = (...arg: [string, number, boolean]) => {
 }
 stud("alomgir", 20, true);
 
+
+
+// object
+
+
+const students: {
+    name: string,
+    age: number,
+    isActive: boolean,
+    address: string[],
+} = {
+    name: "Alomgir",
+    age: 20,
+    isActive: true,
+    address: ["Bangladesh", "Mymensingh"]
+}
+
+
+

@@ -43,3 +43,10 @@ const stud = (...arg) => {
     console.log(name, "is", age);
 };
 stud("alomgir", 20, true);
+// object
+const students = {
+    name: "Alomgir",
+    age: 20,
+    isActive: true,
+    address: ["Bangladesh", "Mymensingh"]
+};
